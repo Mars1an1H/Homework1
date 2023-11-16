@@ -38,8 +38,7 @@ public class Main {
             saves = saves + saves / 100 * 7;
             mountsWait++;
             if (mountsWait % 6 == 0) {
-                System.out.println(mountsWait + " " + saves);
-            }
+                System.out.println(mountsWait + " " + saves);}}
             int initialDeposit = 15000;
             int years = 9;
             int mountsInYear = 12;
@@ -49,8 +48,7 @@ public class Main {
                 sum = sum + initialDeposit;
                 sum = sum + sum / 100 * 7;
                 if (time % 6 == 0) {
-                    System.out.println(time + " " + sum);
-                }
+                    System.out.println(time + " " + sum);}}
                 for (int p = 1; p <= 31; p++)
                     if (p % 5 == 0) {
                         System.out.println("Сегодня пятница," + p + "-е число. Необходимо подготовить отчет");}
@@ -62,8 +60,5 @@ public class Main {
                     if (beforeYear%79==0){
                         System.out.println(beforeYear);}
                 }
-
             }
         }
-    }
-}
